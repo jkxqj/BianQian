@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jkxqj.qiandao.UIController.RegisterActivity" >
+    <TextView
+        android:layout_marginTop="40dp"
+        android:textSize="65px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_register"/>
+
+    <EditText
+    android:id="@+id/register_account_et"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="请输入您的手机号"
+    />
+    <EditText
+        android:id="@+id/realName_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的真实姓名"
+        />
+
+    <EditText
+        android:id="@+id/register_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:hint="请输入您的密码"
+        />
+    <EditText
+        android:id="@+id/password_again_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:hint="请再次输入您的密码"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:onClick="register_sure" />
+    <Button
+        android:id="@+id/register_quit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出"
+        android:onClick="register_quit_btn" />
+
+</LinearLayout>

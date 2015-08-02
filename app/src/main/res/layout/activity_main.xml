@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jkxqj.qiandao.UIController.MainActivity">
+
+    <TextView android:text="@string/hello_world"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/hello"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/dao_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="签到"
+        android:onClick="Dao" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/tui_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="签退"
+        android:onClick="Tui" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/infoDao_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看签到记录"
+        android:onClick="Info_Dao" />
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/infoTui_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看签退记录"
+        android:onClick="Info_Tui" />
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/quit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出"
+        android:onClick="Quit" />
+
+
+</LinearLayout>

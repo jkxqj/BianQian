@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jkxqj.qiandao.UIController.LoginActivity"
+     >
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textSize="65px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"/>
+    <EditText
+
+        android:id="@+id/account_et"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的手机号"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:hint="请输入您的密码"
+        />
+
+    <Button
+
+     android:layout_marginTop="50dp"
+     android:id="@+id/login_btn"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="登录"
+     android:onClick="login_btn" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:onClick="register_btn"
+        android:nestedScrollingEnabled="true" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/quit_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出"
+        android:onClick="quit_login_btn" />
+
+
+</LinearLayout>
